@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router";
-import Cleaning from "./pages/Cleaning";
 import Home from "./pages/Home";
+
+import { Garbage } from "./pages/Garbage";
+import { Cleaning } from "./pages/Cleaning";
 
 export const router = createBrowserRouter([
   {
@@ -13,6 +15,10 @@ export const router = createBrowserRouter([
       {
         path: "/cleaning",
         Component: Cleaning,
+      },
+      {
+        path: "/garbage",
+        Component: Garbage,
       },
     ],
   },

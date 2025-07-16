@@ -9,7 +9,7 @@ export default function Home() {
           Management
         </h1>
         <Link
-          to="https://masterfacility.com.au"
+          to="https://masterfacility.com.au/new-contact/"
           target="_blank"
           className="py-4 px-8 text-2xl font-extrabold rounded-md hover:scale-105 hover:cursor-pointer bg-blue-500/30 text-blue-600"
         >
